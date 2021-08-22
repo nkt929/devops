@@ -4,11 +4,10 @@ This Flask application displays the current time in Moscow.
 
 #Installing
 
-To run this app Python libraries Flask, pytz, datetime must be installed:
+To run this app Python libraries Flask, pytz must be installed:
 ```bash
 > pip install Flask
 > pip install pytz
-> pip install datetime
 ```
 #Running
 
