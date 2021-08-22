@@ -26,3 +26,15 @@ Windows PowerShell:
 > $env:FLASK_APP = "app.py"
 > $flask run
 > ```
+
+## Docker
+Docker image was built and committed with:
+```bash
+> docker build --tag nkt929/devops:latest .
+> docker push nkt929/devops:latest         
+```
+
+To run it use:
+```bash
+> docker run -p 5000:5000 nkt929/devops:latest
+```   
