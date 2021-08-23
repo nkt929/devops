@@ -2,7 +2,7 @@
 
 This Flask application displays the current time in Moscow. 
 
-#Installing
+# Installing
 
 To run this app Python libraries Flask, pytz must be installed:
 ```bash
