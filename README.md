@@ -13,7 +13,7 @@ To run this app Python libraries Flask, pytz must be installed:
 
 Unix Bash:
 ```bash
-> export FLASK_APP=app.py\
+> export FLASK_APP=app.py
 > flask run
 ```
 Windows CMD:
