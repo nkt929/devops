@@ -9,7 +9,7 @@ To run this app Python libraries Flask, pytz must be installed:
 > pip install Flask
 > pip install pytz
 ```
-#Running
+# Running
 
 Unix Bash:
 ```bash
@@ -25,7 +25,7 @@ Windows PowerShell:
 ```bash
 > $env:FLASK_APP = "app.py"
 > $flask run
-> ```
+```
 
 ## Docker
 Docker image was built and committed with:
