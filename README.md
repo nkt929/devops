@@ -13,17 +13,17 @@ To run this app Python libraries Flask, pytz must be installed:
 
 Unix Bash:
 ```bash
-> export FLASK_APP=app.py
+> export FLASK_APP=main.py
 > flask run
 ```
 Windows CMD:
 ```bash
-> set FLASK_APP=app.py 
+> set FLASK_APP=main.py 
 > flask run
 ```
 Windows PowerShell:
 ```bash
-> $env:FLASK_APP = "app.py"
+> $env:FLASK_APP = "main.py"
 > $flask run
 ```
 
