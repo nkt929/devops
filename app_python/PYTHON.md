@@ -48,3 +48,14 @@ Document __init__ methods in the docstring for the class
 - Tests should be isolated. Don't interact with a real database or network. Use a separate test database that gets torn down or use mock objects.
 - Prefer factories to fixtures.
 - Never let incomplete tests pass, else you run the risk of forgetting about them. Instead, add a placeholder like assert False, "TODO: finish me".
+
+# Unit test best practices
+1. Tests Should Be Fast
+2. Tests Should Be Simple
+3. Test Shouldn’t Duplicate Implementation Logic
+4. Tests Should Be Readable
+5. Tests Should Be Deterministic
+6. Make Sure They’re Part of the Build Process
+7. Distinguish Between The Many Types of Test Doubles and Use Them Appropriately
+8. Adopt a Sound Naming Convention for Your Tests
+9. Don’t Couple Your Tests With Implementation Details
