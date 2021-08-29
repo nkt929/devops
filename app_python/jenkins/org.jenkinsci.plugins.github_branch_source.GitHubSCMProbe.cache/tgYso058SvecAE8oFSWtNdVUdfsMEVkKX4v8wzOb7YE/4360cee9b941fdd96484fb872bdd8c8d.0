@@ -1,18 +1,17 @@
-https://api.github.com/
+https://api.github.com/repos/nkt929/devops/contents/Jenkinsfile?ref=eec98a4a9fc3eadde9a41b50887e006d5669c245
 GET
 1
 Accept-Encoding: gzip
 HTTP/1.1 200 
-26
-content-type: application/json; charset=utf-8
-content-encoding: gzip
-accept-ranges: bytes
-content-length: 512
+27
 server: GitHub.com
-date: Sun, 29 Aug 2021 16:46:21 GMT
+date: Sun, 29 Aug 2021 16:46:22 GMT
+content-type: application/json; charset=utf-8
 cache-control: public, max-age=60, s-maxage=60
 vary: Accept, Accept-Encoding, Accept, X-Requested-With
-etag: "94679d3fef397a7a72b62d7326ad8a3e5509cde556d932a3f37c5b53147e9b03"
+etag: W/"ff69b3e34536a6eb2f43285aaa2740ecadd0530e"
+last-modified: Sun, 29 Aug 2021 16:45:48 GMT
+x-github-media-type: github.v3; format=json
 access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 access-control-allow-origin: *
 strict-transport-security: max-age=31536000; includeSubdomains; preload
@@ -21,15 +20,17 @@ x-content-type-options: nosniff
 x-xss-protection: 0
 referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
 content-security-policy: default-src 'none'
-x-github-media-type: github.v3; format=json
+content-encoding: gzip
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 51
-x-ratelimit-reset: 1630258736
+x-ratelimit-remaining: 49
+x-ratelimit-reset: 1630258735
 x-ratelimit-resource: core
-x-ratelimit-used: 9
-x-github-request-id: E171:47C8:141BF21:1486E27:612BB967
-OkHttp-Sent-Millis: 1630255581218
-OkHttp-Received-Millis: 1630255581298
+x-ratelimit-used: 11
+accept-ranges: bytes
+content-length: 592
+x-github-request-id: E171:47C8:141BFE9:1486EFF:612BB9DD
+OkHttp-Sent-Millis: 1630255581891
+OkHttp-Received-Millis: 1630255582087
 
 TLS_AES_128_GCM_SHA256
 2
