@@ -19,4 +19,4 @@ jobs:
         pip install Flask pytz
     - name: Testing
       run: |
-        python ./app_python/time_update_test.py
+        python app_python/time_update_test.py
