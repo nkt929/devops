@@ -1,29 +1,36 @@
-https://api.github.com/rate_limit
+https://api.github.com/users/nkt929
 GET
-0
+1
+Accept-Encoding: gzip
 HTTP/1.1 200 
-21
-access-control-allow-origin: *
-access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
-cache-control: no-cache
-content-security-policy: default-src 'none'
+27
+server: GitHub.com
+date: Sun, 29 Aug 2021 16:39:34 GMT
 content-type: application/json; charset=utf-8
-referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
-x-content-type-options: nosniff
-x-frame-options: deny
+cache-control: public, max-age=60, s-maxage=60
+vary: Accept, Accept-Encoding, Accept, X-Requested-With
+etag: W/"c2c55a40aef256555174c6b2e75208e4e0c0b87dce937d27ed2aa721a1a16994"
+last-modified: Sun, 22 Aug 2021 20:10:52 GMT
 x-github-media-type: github.v3; format=json
+access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+access-control-allow-origin: *
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+x-frame-options: deny
+x-content-type-options: nosniff
+x-xss-protection: 0
+referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
+content-security-policy: default-src 'none'
+content-encoding: gzip
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 52
-x-ratelimit-reset: 1630258736
+x-ratelimit-remaining: 54
+x-ratelimit-reset: 1630258735
 x-ratelimit-resource: core
-x-ratelimit-used: 8
-x-xss-protection: 1; mode=block
-date: Sun, 29 Aug 2021 16:44:22 GMT
-content-length: 465
+x-ratelimit-used: 6
 accept-ranges: bytes
-x-github-request-id: E171:47C8:1412FDD:147DBC0:612BB92F
-OkHttp-Sent-Millis: 1630255461970
-OkHttp-Received-Millis: 1630255462115
+content-length: 446
+x-github-request-id: E171:47C8:13FC57A:14669E4:612BB846
+OkHttp-Sent-Millis: 1630255174407
+OkHttp-Received-Millis: 1630255174722
 
 TLS_AES_128_GCM_SHA256
 2

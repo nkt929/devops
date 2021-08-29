@@ -5,10 +5,11 @@ Accept: application/vnd.github.shadow-cat-preview+json
 Accept-Encoding: gzip
 HTTP/1.1 200 
 25
-server: GitHub.com
-date: Sun, 29 Aug 2021 15:33:29 GMT
 content-type: application/json; charset=utf-8
 content-length: 2
+accept-ranges: bytes
+server: GitHub.com
+date: Sun, 29 Aug 2021 16:44:22 GMT
 cache-control: public, max-age=60, s-maxage=60
 vary: Accept, Accept-Encoding, Accept, X-Requested-With
 etag: "e398edc03c3c7c3b8bd4975f538a8e40aa45c32efabbead0988bfbe915f3b130"
@@ -22,14 +23,13 @@ x-xss-protection: 0
 referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
 content-security-policy: default-src 'none'
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 35
-x-ratelimit-reset: 1630251535
+x-ratelimit-remaining: 51
+x-ratelimit-reset: 1630258735
 x-ratelimit-resource: core
-x-ratelimit-used: 25
-accept-ranges: bytes
-x-github-request-id: F690:135A7:505E3AD:520645A:612BA8C9
-OkHttp-Sent-Millis: 1630251209339
-OkHttp-Received-Millis: 1630251209516
+x-ratelimit-used: 9
+x-github-request-id: E171:47C8:14131A7:147DDA3:612BB967
+OkHttp-Sent-Millis: 1630255463581
+OkHttp-Received-Millis: 1630255463641
 
 TLS_AES_128_GCM_SHA256
 2

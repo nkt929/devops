@@ -1,29 +1,36 @@
-https://api.github.com/rate_limit
+https://api.github.com/repos/nkt929/devops/contents/Jenkinsfile?ref=0993f2e541fbc1a9fe649938872a3e8fc8fe4db4
 GET
-0
+1
+Accept-Encoding: gzip
 HTTP/1.1 200 
-21
-access-control-allow-origin: *
-access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
-cache-control: no-cache
-content-security-policy: default-src 'none'
+27
 content-type: application/json; charset=utf-8
-referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
-x-content-type-options: nosniff
-x-frame-options: deny
+content-encoding: gzip
+accept-ranges: bytes
+content-length: 622
+server: GitHub.com
+date: Sun, 29 Aug 2021 16:41:45 GMT
+cache-control: public, max-age=60, s-maxage=60
+vary: Accept, Accept-Encoding, Accept, X-Requested-With
+etag: W/"8101dde37817c629218f7f1c187653acca41ff62"
+last-modified: Sun, 29 Aug 2021 16:38:38 GMT
 x-github-media-type: github.v3; format=json
+access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+access-control-allow-origin: *
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+x-frame-options: deny
+x-content-type-options: nosniff
+x-xss-protection: 0
+referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
+content-security-policy: default-src 'none'
 x-ratelimit-limit: 60
 x-ratelimit-remaining: 52
-x-ratelimit-reset: 1630258736
+x-ratelimit-reset: 1630258735
 x-ratelimit-resource: core
 x-ratelimit-used: 8
-x-xss-protection: 1; mode=block
-date: Sun, 29 Aug 2021 16:44:22 GMT
-content-length: 465
-accept-ranges: bytes
-x-github-request-id: E171:47C8:1412FDD:147DBC0:612BB92F
-OkHttp-Sent-Millis: 1630255461970
-OkHttp-Received-Millis: 1630255462115
+x-github-request-id: E171:47C8:1406BDE:14713BA:612BB8C9
+OkHttp-Sent-Millis: 1630255305546
+OkHttp-Received-Millis: 1630255305808
 
 TLS_AES_128_GCM_SHA256
 2
