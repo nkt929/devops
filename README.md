@@ -37,4 +37,13 @@ Docker image was built and committed with:
 To run it use:
 ```bash
 > docker run -p 5000:5000 nkt929/devops:latest
-```   
+```
+
+## Unit tests
+
+The unit tests are provided at the same directory, as an app.
+Thus, to run them execute:
+s
+```bash
+> python3 ./app_python/time_update_test.py
+```
